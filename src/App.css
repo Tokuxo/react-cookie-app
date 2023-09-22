@@ -1,4 +1,23 @@
+:root {
+  --contrest: #000000;
+  --shadow: #2d2d2e;
+  --text: #ffffff;
+  --theme: url('./Light.png');
+  --outline: #004042;
+  --Light: url('./Light.png');
+  --Night: url('./Night.png');
+}
+
+body {
+  background-color: var(--shadow);
+}
+
 .App {
+  width: 100%;
+  padding: 5px;
+  font-size: 2vh;
+  color: var(--text);
+  background-color: var(--contrest);
   text-align: center;
 }
 
@@ -13,20 +32,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +40,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button{
+  margin: auto;
+  display: grid;
+  border-width: 1.5vh;
+  border-color: black;
+  border-radius: 50%;
+  width: 30vh;
+  height: 30vh;
+  background-image: url('./AFuckingCookie.png');
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-position: center;
+  background-size: 30vh;
+}
+
+.button:hover{
+  border-color: rgb(--outline);
+}
+
+.button:active{
+  opacity: 0.5;
+
+}
+
+#text{
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 6vh;
+  font-weight: 5vh;
+  -webkit-text-stroke-width: 0.3vh;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+#counter{
+  font-size: 4vh;
+  float:left;
+  border: var(--contrest);
+  border-bottom-right-radius: 25px;
+  padding: 1.5vh;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-left: 2%;
+  margin-top: -1%;
+  color: var(--text);
+  background: var(--contrest);
+}
+.Texts{
+  display: flex;
+  flex-direction: column;
+}
+.Texts > div {
+  margin: 1px;
+}
+.themebutton{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 10vh;
+  height: 10vh;
+  background-image: var(--theme);
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-position: center;
+  background-size: 10vh;
+  border-radius: 10px;
 }
