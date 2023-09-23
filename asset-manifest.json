@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-cookie-app/static/css/main.7cc9ba8b.css",
+    "main.js": "/react-cookie-app/static/js/main.43a1596e.js",
+    "static/js/787.103929eb.chunk.js": "/react-cookie-app/static/js/787.103929eb.chunk.js",
+    "static/media/AFuckingCookie.png": "/react-cookie-app/static/media/AFuckingCookie.02e160b4277250ce19dc.png",
+    "static/media/Night.png": "/react-cookie-app/static/media/Night.91ba6ed1efacf409e65e.png",
+    "static/media/Light.png": "/react-cookie-app/static/media/Light.3864b920cbd45577bec5.png",
+    "index.html": "/react-cookie-app/index.html",
+    "main.7cc9ba8b.css.map": "/react-cookie-app/static/css/main.7cc9ba8b.css.map",
+    "main.43a1596e.js.map": "/react-cookie-app/static/js/main.43a1596e.js.map",
+    "787.103929eb.chunk.js.map": "/react-cookie-app/static/js/787.103929eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cc9ba8b.css",
+    "static/js/main.43a1596e.js"
+  ]
+}
