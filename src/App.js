@@ -17,8 +17,8 @@ export const App = () => {
   function newCookie() {
     setcookie(cookies + 1);
     localStorage.setItem('ckey', cookies+1);
-    controls.start({ scale: 0.8 , x: -10})
-    setTimeout(() => {  controls.start({scale: 1 }); }, 50);
+    controls.start({ x: -10,y: -10, scale:0.9 })
+    setTimeout(() => {  controls.start({x: 0,y:0,scale: 1}); }, 50);
   }
   
   function Reset() {
@@ -74,7 +74,7 @@ export const App = () => {
           <button onClick={Reset} id="reset">Reset</button>
         </div>
         <div>
-          <motion.button whileHover={{ scale:1.1 }} whileTap={{ scale: 0.9 }} className="button" onClick={newCookie}><motion.h2 id="text" >Cookie</motion.h2></motion.button>
+          <motion.button whileHover={{ scale:1.1 }} whileTap={{ scale: 0.9 }} className="button" onClick={newCookie}></motion.button>
         </div>
       </div>
       <div><motion.button whileTap={{ rotate: 40}} className="themebutton" onClick={ChangeTHeme}></motion.button></div>

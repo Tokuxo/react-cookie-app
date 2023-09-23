@@ -65,16 +65,6 @@ body {
   opacity: 0.5;
 
 }
-
-#text{
-  margin-top: 10vh;
-  text-align: center;
-  font-size: 6vh;
-  font-weight: 5vh;
-  -webkit-text-stroke-width: 0.3vh;
-  -webkit-text-stroke-color: #ffffff;
-}
-
 #counter{
   font-size: 4vh;
   float:left;
