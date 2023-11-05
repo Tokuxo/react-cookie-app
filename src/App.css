@@ -3,7 +3,7 @@
   --shadow: #2d2d2e;
   --text: #ffffff;
   --theme: url('./Light.png');
-  --outline: #004042;
+  --outline: #009ca1;
   --Light: url('./Light.png');
   --Night: url('./Night.png');
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .button:hover{
-  border-color: rgb(--outline);
+  border-color: var(--outline);
 }
 
 .button:active{
@@ -73,7 +73,7 @@ body {
   padding: 1.5vh;
   padding-right: 5%;
   padding-top: 1%;
-  padding-left: 2%;
+  padding-left: -2%;
   margin-top: -1%;
   color: var(--text);
   background: var(--contrest);
@@ -97,4 +97,32 @@ body {
   background-position: center;
   background-size: 10vh;
   border-radius: 10px;
+}
+#reset{
+  background-color: var(--contrest);
+  color: var(--text);
+  height: 3vh;
+  width: 10vh;
+  transform: translateY(-100%);
+  border-color: var(--contrest);
+}
+#upgrade {
+  background-color: var(--contrest);
+  border-color: var(--contrest);
+  color: var(--text);
+  width: 20vw;
+  min-width: 150px;
+  max-width: 200px;
+  height: 4vh;
+  text-align: left;
+}
+#cursor {
+  margin-left: 0.5vw;
+  color: var(--text);
+  width: 20vw;
+  height: 4vh;
+  text-align: left;
+}
+#test{
+  color: var(--shadow);
 }
